@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    gap: 10px; /*espaçamento*/
+    grid-template-columns: repeat(4, 1fr); /*dita quantas colunas terá*/
+    justify-content: space-around;
+    grid-auto-rows: 200px 50px; /*define o tamanho da coluna*/
+}
+
+.item{
+    background-color: rgb(0, 179, 255);
+}

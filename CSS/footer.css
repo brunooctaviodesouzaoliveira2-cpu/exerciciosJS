@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'aside section section'
+    'footer footer footer'
+    ;
+    row-gap: 10px;
+    column-gap: 30px;
+    grid-auto-rows: 350px 150px 350px;
+}
+header{
+    grid-area: header;
+    background-color: aquamarine;
+}
+aside{
+   grid-area: aside;
+    background-color: rgb(31, 22, 203); 
+}
+section{
+    grid-area: section;
+    background-color: rgb(218, 13, 241);
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(152, 188, 46);
+}
