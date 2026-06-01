@@ -17,6 +17,8 @@
 header{
     grid-area: header;
     background-color: aquamarine;
+    background-image: url("IMGjs/dog.jpg");
+
 }
 aside{
    grid-area: aside;
@@ -29,4 +31,4 @@ section{
 footer{
     grid-area: footer;
     background-color: rgb(152, 188, 46);
-}
+}   
